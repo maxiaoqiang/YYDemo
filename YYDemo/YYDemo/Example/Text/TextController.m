@@ -28,7 +28,10 @@
     self.titles = @[].mutableCopy;
     self.classNames = @[].mutableCopy;
     
+    
     [self addCell:@"Text Attributes 1" class:@"MXQTextAttributeExample"];
+    [self addCell:@"Text Attributes 2" class:@"MXQTextTagExample"];
+    [self addCell:@"TextAttachment" class:@"MXQTextAttachmentExample"];
 }
 
 -(void)addCell:(NSString *)title class:(NSString *)className{

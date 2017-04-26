@@ -226,7 +226,7 @@
     label.height = [msg heightForFont:label.font width:label.width] +2*padding;
     label.bottom = (kiOS7Later?64:0);
     [self.view addSubview:label];
-    [UIView animateWithDuration:03 animations:^{
+    [UIView animateWithDuration:0.3 animations:^{
         label.top = (kiOS7Later?64:0);
     } completion:^(BOOL finished) {
        [UIView animateWithDuration:0.2 delay:2 options:UIViewAnimationOptionCurveEaseIn animations:^{
