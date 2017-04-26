@@ -12,6 +12,7 @@
 		FE34A7C31EAEE4BF009628B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE34A7C01EAEE4BF009628B5 /* AppDelegate.m */; };
 		FE34A7C41EAEE4BF009628B5 /* MXQRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE34A7C21EAEE4BF009628B5 /* MXQRootController.m */; };
 		FE34A7C71EAEE4E2009628B5 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE34A7C61EAEE4E2009628B5 /* BaseController.m */; };
+		FE34A7CA1EAEE89E009628B5 /* MXQTextAttributeExample.m in Sources */ = {isa = PBXBuildFile; fileRef = FE34A7C91EAEE89E009628B5 /* MXQTextAttributeExample.m */; };
 		FE78EEA31EAD8F3C0074E57F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE78EEA21EAD8F3C0074E57F /* main.m */; };
 		FE78EEAE1EAD8F3C0074E57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE78EEAD1EAD8F3C0074E57F /* Assets.xcassets */; };
 		FE78EEB11EAD8F3C0074E57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE78EEAF1EAD8F3C0074E57F /* LaunchScreen.storyboard */; };
@@ -29,6 +30,8 @@
 		FE34A7C21EAEE4BF009628B5 /* MXQRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXQRootController.m; sourceTree = "<group>"; };
 		FE34A7C51EAEE4E2009628B5 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
 		FE34A7C61EAEE4E2009628B5 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		FE34A7C81EAEE89E009628B5 /* MXQTextAttributeExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXQTextAttributeExample.h; sourceTree = "<group>"; };
+		FE34A7C91EAEE89E009628B5 /* MXQTextAttributeExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXQTextAttributeExample.m; sourceTree = "<group>"; };
 		FE78EE9E1EAD8F3C0074E57F /* YYDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE78EEA21EAD8F3C0074E57F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE78EEAD1EAD8F3C0074E57F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +81,8 @@
 			children = (
 				FE34A7BA1EAEE431009628B5 /* TextController.h */,
 				FE34A7BB1EAEE431009628B5 /* TextController.m */,
+				FE34A7C81EAEE89E009628B5 /* MXQTextAttributeExample.h */,
+				FE34A7C91EAEE89E009628B5 /* MXQTextAttributeExample.m */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE34A7C41EAEE4BF009628B5 /* MXQRootController.m in Sources */,
+				FE34A7CA1EAEE89E009628B5 /* MXQTextAttributeExample.m in Sources */,
 				FE34A7C71EAEE4E2009628B5 /* BaseController.m in Sources */,
 				FE34A7BC1EAEE431009628B5 /* TextController.m in Sources */,
 				FE78EEA31EAD8F3C0074E57F /* main.m in Sources */,
