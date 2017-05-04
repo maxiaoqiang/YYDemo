@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		26592E9F94AB66A4B7933870 /* libPods-YYDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C2301DCD6481C22F7551B88 /* libPods-YYDemo.a */; };
+		FE06C2B41EB9BC45000A74DC /* MXQTextEmoticonExample.m in Sources */ = {isa = PBXBuildFile; fileRef = FE06C2B31EB9BC45000A74DC /* MXQTextEmoticonExample.m */; };
 		FE174C2D1EB07D9C004FC47D /* MXQTextTagExample.m in Sources */ = {isa = PBXBuildFile; fileRef = FE174C2C1EB07D9C004FC47D /* MXQTextTagExample.m */; };
 		FE174C301EB08B87004FC47D /* MXQTextAttachmentExample.m in Sources */ = {isa = PBXBuildFile; fileRef = FE174C2F1EB08B87004FC47D /* MXQTextAttachmentExample.m */; };
 		FE174C511EB08EE5004FC47D /* dribbble128_imageio.png in Resources */ = {isa = PBXBuildFile; fileRef = FE174C331EB08EE5004FC47D /* dribbble128_imageio.png */; };
@@ -48,12 +49,15 @@
 		FE78EEA31EAD8F3C0074E57F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE78EEA21EAD8F3C0074E57F /* main.m */; };
 		FE78EEAE1EAD8F3C0074E57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE78EEAD1EAD8F3C0074E57F /* Assets.xcassets */; };
 		FE78EEB11EAD8F3C0074E57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE78EEAF1EAD8F3C0074E57F /* LaunchScreen.storyboard */; };
+		FE9D47F41EB5D1C000FEE7F1 /* MXQTextEditExample.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9D47F31EB5D1C000FEE7F1 /* MXQTextEditExample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D3D3F0BC3FE95146D10B9F6 /* Pods-YYDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYDemo/Pods-YYDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5C2301DCD6481C22F7551B88 /* libPods-YYDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10909E4BBF46ED6F25F61BC /* Pods-YYDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYDemo/Pods-YYDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FE06C2B21EB9BC45000A74DC /* MXQTextEmoticonExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXQTextEmoticonExample.h; sourceTree = "<group>"; };
+		FE06C2B31EB9BC45000A74DC /* MXQTextEmoticonExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXQTextEmoticonExample.m; sourceTree = "<group>"; };
 		FE174C2B1EB07D9C004FC47D /* MXQTextTagExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXQTextTagExample.h; sourceTree = "<group>"; };
 		FE174C2C1EB07D9C004FC47D /* MXQTextTagExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXQTextTagExample.m; sourceTree = "<group>"; };
 		FE174C2E1EB08B87004FC47D /* MXQTextAttachmentExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXQTextAttachmentExample.h; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 		FE78EEAD1EAD8F3C0074E57F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE78EEB01EAD8F3C0074E57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE78EEB21EAD8F3C0074E57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE9D47F21EB5D1C000FEE7F1 /* MXQTextEditExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXQTextEditExample.h; sourceTree = "<group>"; };
+		FE9D47F31EB5D1C000FEE7F1 /* MXQTextEditExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXQTextEditExample.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +204,10 @@
 				FE174C2C1EB07D9C004FC47D /* MXQTextTagExample.m */,
 				FE174C2E1EB08B87004FC47D /* MXQTextAttachmentExample.h */,
 				FE174C2F1EB08B87004FC47D /* MXQTextAttachmentExample.m */,
+				FE9D47F21EB5D1C000FEE7F1 /* MXQTextEditExample.h */,
+				FE9D47F31EB5D1C000FEE7F1 /* MXQTextEditExample.m */,
+				FE06C2B21EB9BC45000A74DC /* MXQTextEmoticonExample.h */,
+				FE06C2B31EB9BC45000A74DC /* MXQTextEmoticonExample.m */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -411,7 +421,9 @@
 				FE174C2D1EB07D9C004FC47D /* MXQTextTagExample.m in Sources */,
 				FE34A7CA1EAEE89E009628B5 /* MXQTextAttributeExample.m in Sources */,
 				FE34A7C71EAEE4E2009628B5 /* BaseController.m in Sources */,
+				FE06C2B41EB9BC45000A74DC /* MXQTextEmoticonExample.m in Sources */,
 				FE34A7BC1EAEE431009628B5 /* TextController.m in Sources */,
+				FE9D47F41EB5D1C000FEE7F1 /* MXQTextEditExample.m in Sources */,
 				FE174C301EB08B87004FC47D /* MXQTextAttachmentExample.m in Sources */,
 				FE78EEA31EAD8F3C0074E57F /* main.m in Sources */,
 				FE34A7C31EAEE4BF009628B5 /* AppDelegate.m in Sources */,

@@ -32,6 +32,8 @@
     [self addCell:@"Text Attributes 1" class:@"MXQTextAttributeExample"];
     [self addCell:@"Text Attributes 2" class:@"MXQTextTagExample"];
     [self addCell:@"TextAttachment" class:@"MXQTextAttachmentExample"];
+    [self addCell:@"Text Edit" class:@"MXQTextEditExample"];
+    [self addCell:@"Text Emoticon" class:@"MXQTextEmoticonExample"];
 }
 
 -(void)addCell:(NSString *)title class:(NSString *)className{
