@@ -34,6 +34,9 @@
     [self addCell:@"TextAttachment" class:@"MXQTextAttachmentExample"];
     [self addCell:@"Text Edit" class:@"MXQTextEditExample"];
     [self addCell:@"Text Emoticon" class:@"MXQTextEmoticonExample"];
+    [self addCell:@"Text Copy-Paste" class:@"MXQCopyPasteExample"];
+    [self addCell:@"Text UndoRedo" class:@"MXQTextUndoRedoExample"];
+    [self addCell:@"Text Ruby" class:@"MXQTextRubyExample"];
 }
 
 -(void)addCell:(NSString *)title class:(NSString *)className{

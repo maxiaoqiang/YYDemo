@@ -46,6 +46,9 @@
 		FE34A7C41EAEE4BF009628B5 /* MXQRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE34A7C21EAEE4BF009628B5 /* MXQRootController.m */; };
 		FE34A7C71EAEE4E2009628B5 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE34A7C61EAEE4E2009628B5 /* BaseController.m */; };
 		FE34A7CA1EAEE89E009628B5 /* MXQTextAttributeExample.m in Sources */ = {isa = PBXBuildFile; fileRef = FE34A7C91EAEE89E009628B5 /* MXQTextAttributeExample.m */; };
+		FE757F231EBAC97F0094B19D /* MXQCopyPasteExample.m in Sources */ = {isa = PBXBuildFile; fileRef = FE757F221EBAC97F0094B19D /* MXQCopyPasteExample.m */; };
+		FE757F261EBAD6C40094B19D /* MXQTextUndoRedoExample.m in Sources */ = {isa = PBXBuildFile; fileRef = FE757F251EBAD6C40094B19D /* MXQTextUndoRedoExample.m */; };
+		FE757F291EBB07790094B19D /* MXQTextRubyExample.m in Sources */ = {isa = PBXBuildFile; fileRef = FE757F281EBB07790094B19D /* MXQTextRubyExample.m */; };
 		FE78EEA31EAD8F3C0074E57F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE78EEA21EAD8F3C0074E57F /* main.m */; };
 		FE78EEAE1EAD8F3C0074E57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE78EEAD1EAD8F3C0074E57F /* Assets.xcassets */; };
 		FE78EEB11EAD8F3C0074E57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE78EEAF1EAD8F3C0074E57F /* LaunchScreen.storyboard */; };
@@ -102,6 +105,12 @@
 		FE34A7C61EAEE4E2009628B5 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
 		FE34A7C81EAEE89E009628B5 /* MXQTextAttributeExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXQTextAttributeExample.h; sourceTree = "<group>"; };
 		FE34A7C91EAEE89E009628B5 /* MXQTextAttributeExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXQTextAttributeExample.m; sourceTree = "<group>"; };
+		FE757F211EBAC97F0094B19D /* MXQCopyPasteExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXQCopyPasteExample.h; sourceTree = "<group>"; };
+		FE757F221EBAC97F0094B19D /* MXQCopyPasteExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXQCopyPasteExample.m; sourceTree = "<group>"; };
+		FE757F241EBAD6C40094B19D /* MXQTextUndoRedoExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXQTextUndoRedoExample.h; sourceTree = "<group>"; };
+		FE757F251EBAD6C40094B19D /* MXQTextUndoRedoExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXQTextUndoRedoExample.m; sourceTree = "<group>"; };
+		FE757F271EBB07790094B19D /* MXQTextRubyExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXQTextRubyExample.h; sourceTree = "<group>"; };
+		FE757F281EBB07790094B19D /* MXQTextRubyExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXQTextRubyExample.m; sourceTree = "<group>"; };
 		FE78EE9E1EAD8F3C0074E57F /* YYDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE78EEA21EAD8F3C0074E57F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FE78EEAD1EAD8F3C0074E57F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -208,6 +217,12 @@
 				FE9D47F31EB5D1C000FEE7F1 /* MXQTextEditExample.m */,
 				FE06C2B21EB9BC45000A74DC /* MXQTextEmoticonExample.h */,
 				FE06C2B31EB9BC45000A74DC /* MXQTextEmoticonExample.m */,
+				FE757F211EBAC97F0094B19D /* MXQCopyPasteExample.h */,
+				FE757F221EBAC97F0094B19D /* MXQCopyPasteExample.m */,
+				FE757F241EBAD6C40094B19D /* MXQTextUndoRedoExample.h */,
+				FE757F251EBAD6C40094B19D /* MXQTextUndoRedoExample.m */,
+				FE757F271EBB07790094B19D /* MXQTextRubyExample.h */,
+				FE757F281EBB07790094B19D /* MXQTextRubyExample.m */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -419,9 +434,12 @@
 			files = (
 				FE34A7C41EAEE4BF009628B5 /* MXQRootController.m in Sources */,
 				FE174C2D1EB07D9C004FC47D /* MXQTextTagExample.m in Sources */,
+				FE757F291EBB07790094B19D /* MXQTextRubyExample.m in Sources */,
 				FE34A7CA1EAEE89E009628B5 /* MXQTextAttributeExample.m in Sources */,
 				FE34A7C71EAEE4E2009628B5 /* BaseController.m in Sources */,
 				FE06C2B41EB9BC45000A74DC /* MXQTextEmoticonExample.m in Sources */,
+				FE757F231EBAC97F0094B19D /* MXQCopyPasteExample.m in Sources */,
+				FE757F261EBAD6C40094B19D /* MXQTextUndoRedoExample.m in Sources */,
 				FE34A7BC1EAEE431009628B5 /* TextController.m in Sources */,
 				FE9D47F41EB5D1C000FEE7F1 /* MXQTextEditExample.m in Sources */,
 				FE174C301EB08B87004FC47D /* MXQTextAttachmentExample.m in Sources */,
